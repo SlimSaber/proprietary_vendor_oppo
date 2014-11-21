@@ -22,16 +22,6 @@ ifeq ($(TARGET_BOARD_PLATFORM),msm8974)
 ifeq ($(QCPATH),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := PPPreference
-LOCAL_MODULE_OWNER := oppo
-LOCAL_SRC_FILES := proprietary/app/PPPreference.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := oppo
 LOCAL_SRC_FILES := proprietary/app/qcrilmsgtunnel.apk
