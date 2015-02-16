@@ -36,11 +36,9 @@ PRODUCT_COPY_FILES += \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
-    vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libmaxxeffect-cembedded.so:system/vendor/lib/soundfx/libmaxxeffect-cembedded.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
     vendor/oppo/msm8974-common/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-    vendor/oppo/msm8974-common/proprietary/etc/waves/default.mps:system/etc/waves/default.mps \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00 \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01 \
     vendor/oppo/msm8974-common/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \

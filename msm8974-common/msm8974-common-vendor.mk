@@ -22,8 +22,7 @@ PRODUCT_PACKAGES += \
     PPPreference \
     QuickBoot \
     qcrilmsgtunnel \
-    shutdownlistener \
-    MaxxAudioFX
+    shutdownlistener
 
 PRODUCT_PACKAGES += \
     libHevcSwDecoder \
@@ -40,9 +39,5 @@ PRODUCT_PACKAGES += \
     libwvdrm_L3 \
     libwvm \
     libWVStreamControlAPI_L3
-
-PRODUCT_PACKAGES += \
-    libMA3-processcode-Coretex_A9 \
-    libMA3-processcode-Qualcomm
 
 $(call inherit-product, vendor/oppo/msm8974-common/msm8974-common-vendor-blobs.mk)
